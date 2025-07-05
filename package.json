@@ -1,0 +1,29 @@
+{
+  "name": "api-testing-jest",
+  "version": "1.0.0",
+  "description": "\"# api-testing-jest\"",
+  "homepage": "https://github.com/Nadezhda0490/api-testing-jest#readme",
+  "bugs": {
+    "url": "https://github.com/Nadezhda0490/api-testing-jest/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nadezhda0490/api-testing-jest.git"
+  },
+  "license": "ISC",
+  "author": "Nadezhda",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/superagent": "^8.1.9",
+    "dotenv": "^17.0.1",
+    "jest": "^30.0.4",
+    "superagent": "^10.2.1",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.8.3"
+  }
+}
