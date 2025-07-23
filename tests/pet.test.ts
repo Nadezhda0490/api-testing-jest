@@ -26,6 +26,8 @@ describe("Pet API", () => {
       .ok((res) => true);
 
     expect(response.statusCode).toBe(400);
+    expect(response.body).toHaveProperty("type", "unknown");
+    expect(response.body.message).toMatch(/Missing start boundary/);
   });
 
   test("PUT /pet - should update an existing pet", async () => {
